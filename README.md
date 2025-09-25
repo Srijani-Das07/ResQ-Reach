@@ -1,3 +1,4 @@
+
 # 🌐 Disaster Management System
 
 ## 📌 Overview
@@ -35,6 +36,7 @@ This project aims to **reduce chaos, improve response efficiency, and save lives
 3. Algorithm computes **shortest & safest route**.  
 4. Frontend displays live route map + camp status.  
 5. Relief camp admins update **food, water, medical supply** info in real-time.  
+
 
 
 
