@@ -1,0 +1,14 @@
+This file indicates that the make-server directory should be deleted as it conflicts with the existing server function.
+
+To fix the 403 deployment error:
+1. Delete /supabase/functions/make-server/ directory completely
+2. Use the existing /supabase/functions/server/ which already handles all required endpoints
+3. The API base URL should point to: https://mppuexmnibtwvvyuzdxa.supabase.co/functions/v1/server
+
+The existing server function already handles:
+- Health check at /make-server-ac827602/health
+- Authentication at /make-server-ac827602/api/auth/login
+- Relief centers at /make-server-ac827602/api/relief
+- Profile management endpoints
+
+No duplicate edge function needed.
