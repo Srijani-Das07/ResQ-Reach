@@ -2,24 +2,7 @@
 
 This disaster management system has been migrated from Supabase to MongoDB.
 
-## MongoDB Setup Instructions
 
-1. **Install MongoDB**: Make sure MongoDB is installed on your system or use MongoDB Atlas for cloud deployment.
-
-2. **Environment Variables**: Set up the following environment variables:
-   ```bash
-   MONGODB_URI=mongodb://localhost:27017/disaster-management
-   MONGODB_DB_NAME=disaster-management
-   MONGODB_SSL=false
-   ```
-
-3. **For MongoDB Atlas (Cloud)**:
-   ```bash
-   MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/disaster-management?retryWrites=true&w=majority
-   MONGODB_SSL=true
-   ```
-
-4. **Database Schema**: The system will automatically create the required collections and indexes when first run.
 
 ## Collections Structure
 
